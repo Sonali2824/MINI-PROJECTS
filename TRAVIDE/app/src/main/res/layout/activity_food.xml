@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bangplaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:text="CLICK TO FIND THE BEST PLACES TO TASTE THESE DELICACIES!"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+
+            android:id="@+id/food1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food1"
+            android:onClick="open1Web1"
+            android:layout_gravity="center"
+            android:text="MYSORE PAK"/>
+
+        <Button
+            android:id="@+id/food2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food2"
+            android:onClick="open1Web2"
+            android:layout_gravity="center"
+            android:text="IDLI" />
+        <Button
+            android:id="@+id/food3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food3"
+            android:onClick="open1Web3"
+            android:layout_gravity="center"
+            android:text="MASALA DOSA"/>
+
+        <Button
+            android:id="@+id/food4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food4"
+            android:onClick="open1Web4"
+            android:layout_gravity="center"
+            android:text="PONGAL"/>
+        <Button
+            android:id="@+id/food5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food5"
+            android:onClick="open1Web5"
+            android:layout_gravity="center"
+            android:text="AKKI ROTTI"/>
+        <Button
+            android:id="@+id/food6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food6"
+            android:onClick="open1Web6"
+            android:layout_gravity="center"
+            android:text="SAMBAR"/>
+        <Button
+            android:id="@+id/food7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food7"
+            android:onClick="open1Web7"
+            android:layout_gravity="center"
+            android:text="VADA"/>
+        <Button
+            android:id="@+id/food8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food8"
+            android:onClick="open1Web8"
+            android:layout_gravity="center"
+            android:text="BISI BELE BATH"/>
+
+        <Button
+            android:id="@+id/food9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food9"
+            android:onClick="open1Web9"
+            android:layout_gravity="center"
+            android:text="RASAM"/>
+        <Button
+            android:id="@+id/food10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food10"
+            android:onClick="open1Web10"
+            android:layout_gravity="center"
+            android:text="KESARI BATH"/>
+        <Button
+            android:id="@+id/food11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food11"
+            android:onClick="open1Web11"
+            android:layout_gravity="center"
+            android:text="RAGI MUDDE"/>
+        <Button
+            android:id="@+id/food12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food12"
+            android:onClick="open1Web12"
+            android:layout_gravity="center"
+            android:text="PULIHORA"/>
+        <Button
+            android:id="@+id/food13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food13"
+            android:onClick="open1Web13"
+            android:layout_gravity="center"
+            android:text="THALI"/>
+        <Button
+            android:id="@+id/food14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food14"
+            android:onClick="open1Web14"
+            android:layout_gravity="center"
+            android:text="KHEER"/>
+        <Button
+            android:id="@+id/food15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/food15"
+            android:onClick="open1Web15"
+            android:layout_gravity="center"
+            android:text="FENI"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bangplaces">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/cardview_light_background"
+            android:text="CLICK ON THE PLACES TO VISIT IN BANGALORE"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/bang1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new3"
+            android:onClick="openWeb1"
+            android:text="BANGALORE PALACE"/>
+        <Button
+            android:id="@+id/bang2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new4"
+            android:onClick="openWeb2"
+            android:text="LAL BAGH"/>
+        <Button
+            android:id="@+id/bang3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new5"
+            android:onClick="openWeb3"
+            android:text="VIDHANA SOUDHA"/>
+
+        <Button
+            android:id="@+id/bang4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new6"
+            android:onClick="openWeb4"
+            android:text="BANNERGHATTA NATIONAL PARK"/>
+        <Button
+            android:id="@+id/bang5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new7"
+            android:onClick="openWeb5"
+            android:text="BANGALORE FORT"/>
+        <Button
+            android:id="@+id/bang6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new8"
+            android:onClick="openWeb6"
+            android:text="CUBBON PARK"/>
+        <Button
+            android:id="@+id/bang7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new9"
+            android:onClick="openWeb7"
+            android:text="TIPU SULTAN'S SUMMER PALACE"/>
+        <Button
+            android:id="@+id/bang8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/new10"
+            android:onClick="openWeb8"
+            android:text="THOTTIKALLU"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
