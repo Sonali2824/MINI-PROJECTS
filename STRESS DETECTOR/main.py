@@ -1,4 +1,4 @@
-#print("started stress2")
+
 import dlib
 import sys
 import cv2
@@ -16,16 +16,9 @@ import matplotlib.pyplot as plt
 from keras.preprocessing.image import img_to_array
 from keras.models import load_model
 
+
 n=""
 eid=""
-'''def obtaindata(name,e_id):
-    n=name
-    eid=e_id'''
-    
-    
-
-
-#tkinter
 def center(win):
     """
     centers a tkinter window
@@ -61,7 +54,7 @@ def message():
         gmailpassword = "example12"
         mailto = "example@gmail.com"
         msg = "The employee "+n+" with employee ID "+eid+" has reached his/her saturation point but continues to work"
-        print(msg)
+        #print(msg)
         mailServer = smtplib.SMTP('smtp.gmail.com' , 587)
         mailServer.ehlo()
         mailServer.starttls()
@@ -104,7 +97,7 @@ def emotion_finder(faces,frame):
 def normalize_values(points,disp):
     normalized_value = abs(disp - np.min(points))/abs(np.max(points) - np.min(points))
     stress_value = np.exp(-(normalized_value))
-    print(stress_value)
+    #print(stress_value)
     if stress_value>=75:        
         return stress_value,"High Stress"
     else:
@@ -114,7 +107,7 @@ def normalize_values(points,disp):
     top.destroy'''
 def execute1():
     global n,eid
-    print(e1.get(),e2.get())
+    #print(e1.get(),e2.get())
     n=e1.get()
     eid=e2.get()
     top.destroy()
@@ -138,13 +131,12 @@ sbmitbtn = Button(top, text = "Start",activebackground = "pink", activeforegroun
 #close()
 top.mainloop()
 
-
 FACE_DOWNSAMPLE_RATIO = 1.5
 RESIZE_HEIGHT = 460
 
 thresh = 0.27
-modelPath = "C:\\Users\\USER\\Desktop\\STRESS\\shape_predictor_68_face_landmarks.dat"
-sound_path = "alarm.wav"
+modelPath = "models/shape_predictor_70_face_landmarks.dat"
+
 
 detector = dlib.get_frontal_face_detector()
 predictor = dlib.shape_predictor(modelPath)
@@ -160,7 +152,6 @@ drowsyTime = 1.5  #1200ms
 ALARM_ON = False
 GAMMA = 1.5
 threadStatusQ = queue.Queue()
-count=0
 
 invGamma = 1.0/GAMMA
 table = np.array([((i / 255.0) ** invGamma) * 255 for i in range(0, 256)]).astype("uint8")
@@ -172,13 +163,7 @@ def histogram_equalization(image):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     return cv2.equalizeHist(gray) 
 
-def soundAlert(path, threadStatusQ):
-    while True:
-        if not threadStatusQ.empty():
-            FINISHED = threadStatusQ.get()
-            if FINISHED:
-                break
-        playsound.playsound(path)
+
 
 def eye_aspect_ratio(eye):
     A = dist.euclidean(eye[1], eye[5])
@@ -244,7 +229,7 @@ def checkBlinkStatus(eyeStatus):
 
         else:
             drowsy = 1
-    print("drowsy",drowsy)
+    print("Drowsy",drowsy)
 
 def getLandmarks(im):
     imSmall = cv2.resize(im, None, 
@@ -318,14 +303,15 @@ falseBlinkLimit = blinkTime/spf
 print("drowsy limit: {}, false blink limit: {}".format(drowsyLimit, falseBlinkLimit))
 
 if __name__ == "__main__":
-    #opening()
     vid_writer = cv2.VideoWriter('output-low-light-2.avi',cv2.VideoWriter_fourcc('M','J','P','G'), 15, (frame.shape[1],frame.shape[0]))
     detector = dlib.get_frontal_face_detector()
     predictor = dlib.shape_predictor(modelPath)
     emotion_classifier = load_model("_mini_XCEPTION.102-0.66.hdf5", compile=False)
+
     #cap = cv2.VideoCapture(0)
     points = []
     count=0
+    
     while(1):
         try:
             t = time.time()
@@ -363,8 +349,7 @@ if __name__ == "__main__":
 
             key = cv2.waitKey(1) & 0xFF
 
-            #if key == ord('q') or count>20:
-                #break
+
             IMAGE_RESIZE = np.float32(height)/RESIZE_HEIGHT
             frame = cv2.resize(frame, None, 
                                 fx = 1/IMAGE_RESIZE, 
@@ -394,7 +379,7 @@ if __name__ == "__main__":
                 cv2.circle(frame, (landmarks[rightEyeIndex[i]][0], landmarks[rightEyeIndex[i]][1]), 1, (0, 0, 255), -1, lineType=cv2.LINE_AA)
 
             if drowsy and count>20:
-                cv2.putText(frame, "! ! ! STRESS ALERT ! ! !", (70, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
+                cv2.putText(frame, "! ! ! DROWSINESS ALERT ! ! !", (70, 50), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2, cv2.LINE_AA)
                 output=message()
                 count=0
                 state = 0
@@ -408,17 +393,15 @@ if __name__ == "__main__":
                     root.withdraw()
                     MsgBox = tk.messagebox.showinfo('THANK YOU','We appreciate you for considering the warning!! See you again after you rejuvenate!!')
                     break
-                
-                '''if not ALARM_ON:
+                """if not ALARM_ON:
                     ALARM_ON = True
                     threadStatusQ.put(not ALARM_ON)
                     thread = Thread(target=soundAlert, args=(sound_path, threadStatusQ,))
                     thread.setDaemon(True)
-                    thread.start()'''
-                
+                    thread.start()"""
 
             else:
-                cv2.putText(frame, "Blinks : {}".format(blinkCount), (460, 80), cv2.FONT_HERSHEY_COMPLEX, 0.8, (0,0,255), 2, cv2.LINE_AA)
+                #cv2.putText(frame, "Blinks : {}".format(blinkCount), (460, 80), cv2.FONT_HERSHEY_COMPLEX, 0.8, (0,0,255), 2, cv2.LINE_AA)
                 # (0, 400)
                 ALARM_ON = False
 
