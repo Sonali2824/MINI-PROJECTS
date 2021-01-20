@@ -2,19 +2,28 @@
 <i>
 <h2> Project Title : Virtual Classroom </h2><br>
 
-### 🙋 Team Members: Sonali Preetha Nandagopalan ,Prakriti Sharma K P, Silpa S
 
+### ⚡ Problem Statement: 👩‍🏫 Owing to the current COVID-19 conditions, schools and colleges have become virtual. All notes, assignments, projects, attendance forms, marksheets, examination question papers and answer scripts, and other related documents are shared and uploaded online. But all these documents are collected and shared in different forums. Multiple announcements, important notes and messages are all shared at once, due to which both the students and faculty might miss out on some. Faculty find it difficult to track the submissions made by the students. We require a more organized mechanism to perform these functionalities. 👨‍🏫 </i>
+<br>
+<br>
 <br>
 
-### ⚡ Problem Statement: Waste Management Solution - A model that differentiates dry,wet and plastic waste automatically. The input provided is a video comprising of trash that will be thrown into a dustbin. </i>
+### ⚡ Proposed System: 💻The proposed system is a common forum in which all required resources are added by the faculty members and which can then be accessed by the students, that takes up the form of a website.
+</i>
 <br>
 <br>
 <br>
+
 
 ## ✨PROJECT EXPLANATION
-📝 The accumulation of waste in the urban area is becoming a great concern, and it would result in environmental pollution and may be hazardous to human health if it is not properly managed.<br><br>
-📝In India, 77% of waste is disposed of in open dumps,18% is composted and just 5% is recycled. This improper disposal of waste has led to generation of huge amounts of CO2. <br><br>
-📝One of the most important steps of waste management is the separation of the waste into the different components and this process is normally done manually by hand-picking. <br><br>
+📝 Owing to the current COVID-19 conditions, schools and colleges have become virtual. All academic related resources and information are shared via different online platforms. <br><br>
+📝Despite all the information being shared with the students, it is difficult for the student to keep track of the work to be done owing to the greater number of messages or emails received each day. Students tend to miss out on important dates and other vital information that makes them fall behind in their work. Despite all the documents and links being shared, at a time of need, it is difficult to find the same and trace back the work owing to the multiple groups and information overload. <br><br>
+📝From the perspective of the faculty, they find it difficult to keep track of the following components:
+1.	Whether all syllabi related resources have been shared with the students.
+2.	Whether they have assigned and shared the link for submission for the designated number of assignments, quizzes, examinations, and projects.
+3.	Whether all announcements and vital information has been shared with the students.
+
+<br><br>
 📝So it is important to have an advanced/intelligent waste management system to manage a variety of waste materials.<br><br>
 📝Large organizations like companies, schools, stores, restaurants and other commercial and institutional buildings generate significant amounts of materials and waste. In these organizations, it is a very challenging job to ensure all the individuals follow the waste segregation methods. So, these large organizations are the main target for our solution.<br><br>
 
@@ -37,9 +46,6 @@
 <br>
 <br>
 
-### DATASET  
-<img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/dataset_image.jpeg">
-<br></br>
 
 ### ARCHITECTURE 
 <img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/arch.jpg">
@@ -64,12 +70,13 @@
 
 
 ## VIDEO TUTORIAL ON HOW TO USE THE ACADEMIZER:
-* **<a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK </a>
+* <a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK TO USE ACADEMIZER AS A FACULTY MEMBER </a>
+* <a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK TO USE ACADEMIZER AS A STUDENT </a>
 <br></br>
 
 
 
 ## Project is done by
 
-* **👩‍💻 Sonali Preetha Nandagopalan** - [GitHub Profile](https://github.com/Sonali2824)
+👩‍💻 Sonali Preetha Nandagopalan** - [GitHub Profile](https://github.com/Sonali2824)
 
