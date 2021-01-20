@@ -29,20 +29,17 @@
 
 
 ### ARCHITECTURE 
-<img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/arch.jpg">
+<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE1.png">
+<br></br>
+<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE2.png">
+<br></br>
+<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE3.png">
 <br></br>
 
 ### FLOWCHART 
-<img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/PROCESS_FLOW.jpeg">
+<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FLOWCHART.png">
 <br></br>
 
-### PREDICTION PROCESS FLOWCHART
-<img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/pred_process_flow.jpeg">
-<br></br>
-
-### VISUALIZATION OF PREDICTION 
-<img src="https://github.com/Sonali2824/AUTOMATIC-WASTE-SEGREGATOR/blob/main/visualisation.jpeg">
-<br></br>
 
 ## Getting Started
 
@@ -51,8 +48,8 @@
 
 
 ## VIDEO TUTORIAL ON HOW TO USE THE ACADEMIZER:
-* <a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK TO USE ACADEMIZER AS A FACULTY MEMBER </a>
-* <a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK TO USE ACADEMIZER AS A STUDENT </a>
+* <a href="https://drive.google.com/file/d/1ZKPugw7Lil8uvq8Q-tq--TyZ206QMx9n/view?usp=sharing"> 📷 VIDEO LINK ON HOW TO USE THE ACADEMIZER AS A FACULTY MEMBER </a>
+* <a href="https://drive.google.com/file/d/12WpMoDDin7g2-tg4i3Y7Cd7A6lLPsWYE/view?usp=sharing"> 📷 IDEO LINK ON HOW TO USE THE ACADEMIZER AS A STUDENT </a>
 <br></br>
 
 
