@@ -22,8 +22,9 @@
 * Whether all syllabi related resources have been shared with the students.
 * Whether they have assigned and shared the link for submission for the designated number of assignments, quizzes, examinations, and projects.
 * Whether all announcements and vital information has been shared with the students.
-<br><br><br>
-📝Thus, there is a requirement from the students' end to view all the work to be done and the learning resources in a more organized manner and from the faculty’s end an organized mechanism to share all information and resources with their students. Both the faculty and students require an organized and efficient method to track their work.<br><br>
+<br><br>
+
+📝Thus, there is a requirement from the student's end to view all the work to be done and the learning resources in a more organized manner and from the faculty’s end an organized mechanism to share all information and resources with their students. Both the faculty and students require an organized and efficient method to track their work.<br><br>
 📝The proposed solution is the website, "Academizer".
 <br>
 
@@ -71,7 +72,7 @@
 
 ## VIDEO TUTORIAL ON HOW TO USE THE ACADEMIZER:
 * <a href="https://drive.google.com/file/d/1ZKPugw7Lil8uvq8Q-tq--TyZ206QMx9n/view?usp=sharing"> 📷 VIDEO LINK ON HOW TO USE THE ACADEMIZER AS A FACULTY MEMBER </a>
-* <a href="https://drive.google.com/file/d/12WpMoDDin7g2-tg4i3Y7Cd7A6lLPsWYE/view?usp=sharing"> 📷 IDEO LINK ON HOW TO USE THE ACADEMIZER AS A STUDENT </a>
+* <a href="https://drive.google.com/file/d/12WpMoDDin7g2-tg4i3Y7Cd7A6lLPsWYE/view?usp=sharing"> 📷 VIDEO LINK ON HOW TO USE THE ACADEMIZER AS A STUDENT </a>
 <br></br>
 
 
