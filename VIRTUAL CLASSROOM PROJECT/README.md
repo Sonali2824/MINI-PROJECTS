@@ -42,15 +42,15 @@
 
 ### PROJECT IMPLEMENTATION 
 
-<h2> Landing Page </h2><br>
+<h3> Landing Page </h3><br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/LANDING%20PAGE%20IMAGE.png">
 <br></br>
-<h2> Faculty Module </h2><br>
+<h3> Faculty Module </h3><br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FACULTY%20MODULE.png">
 <br></br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FACULTY%20MODULE1.png">
 <br></br>
-<h2> Student Module </h2><br>
+<h3> Student Module </h3><br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/STUDENT%20MODULE.png">
 <br></br>
 
