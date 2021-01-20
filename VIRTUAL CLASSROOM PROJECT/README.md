@@ -1,4 +1,4 @@
-# AUTOMATIC-WASTE-SEGREGATOR
+# Virtual Classroom
 <i>
 <h2> Project Title : Virtual Classroom </h2><br>
 
@@ -64,5 +64,5 @@
 
 ## Project is done by
 
-👩‍💻 Sonali Preetha Nandagopalan** - [GitHub Profile](https://github.com/Sonali2824)
+👩‍💻 Sonali Preetha Nandagopalan - [GitHub Profile](https://github.com/Sonali2824)
 
