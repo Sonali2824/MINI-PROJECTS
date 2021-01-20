@@ -61,8 +61,8 @@
 ✅ Detailed instructions on how to run the Academizer
 <br></br>
 📌 Download the XAMPP server.<br><br>
-📌 Clone the repository. Copy paste the folder VIRTUAL CLASSROOM PROJECT into the folder htdocs (C:\xampp\htdocs). <br><br>
-📌  On the XAMPP Control Panel click on start for both Apache and MySQL. Create a database virtualclassroom in MySQL. Under the database create tables faculty_login and student_login. <br><br>
+📌 Clone the repository. Copy and paste the folder VIRTUAL CLASSROOM PROJECT into the folder htdocs (C:\xampp\htdocs). <br><br>
+📌  On the XAMPP Control Panel click on start for both Apache and MySQL. Create a database virtualclassroom in MySQL. Under the database create tables faculty_login and student_login with columns name, email, username and password. <br><br>
 📌  On the XAMPP Control Panel click on start for both Apache and MySQL. Create a database virtualclassroom in MySQL. Under the database create tables faculty_login and student_login. <br><br>
 📌  Copy and paste the following link to access the landing page of Academizer : http://localhost/VIRTUAL%20CLASSROOM%20PROJECT/landing%20page/index.html <br><br>
 📌  Follow the video tutorials on how to use the website "Academizer". <br><br>
