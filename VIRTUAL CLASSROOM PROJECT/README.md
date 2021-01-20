@@ -8,7 +8,7 @@
 <br>
 <br>
 
-### ⚡ Proposed System: 💻The proposed system is a common forum in which all required resources are added by the faculty members and which can then be accessed by the students, that takes up the form of a website.
+### ⚡ Proposed System: 🐱‍💻The proposed system is a common forum in which all required resources are added by the faculty members and which can then be accessed by the students, that takes up the form of a website.💻
 </i>
 <br>
 <br>
