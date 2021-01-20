@@ -22,28 +22,9 @@
 1.	Whether all syllabi related resources have been shared with the students.
 2.	Whether they have assigned and shared the link for submission for the designated number of assignments, quizzes, examinations, and projects.
 3.	Whether all announcements and vital information has been shared with the students.
-
 <br><br>
-📝So it is important to have an advanced/intelligent waste management system to manage a variety of waste materials.<br><br>
-📝Large organizations like companies, schools, stores, restaurants and other commercial and institutional buildings generate significant amounts of materials and waste. In these organizations, it is a very challenging job to ensure all the individuals follow the waste segregation methods. So, these large organizations are the main target for our solution.<br><br>
-
-📝The proposed solution is an Automatic Waste Segregator,” The Autowastagator”.
-
-        💥The Automatic Waste Segregator was built using an Image Classification model using the ResNet50 model. The model will be built on a Waste Images Dataset procured from different resources in order to increase the accuracy and efficiency of the model.
-        
-        💥The data was collected from Kaggle waste classification dataset and Trashnet dataset .The dataset is then trained and tested and a model is created. The input to the model will be a video input where the video comprises of trash being thrown.
-
-        💥Video is split into frames(1 image for every 7s of video). Predication are made on frames
-        
-        💥 As already mentioned the target audience will be members of a large organization where there is a high probability only one trash is thrown at a time which is then recorded by a webcam and then the waste category classification is done on the recorded video.
-        
-        💥 At the end of the process a report is generated comprising of the details of the number of images (obtained from video stream) of each category of waste disposed.
-
-📝  <b>The waste report</b> generated in this proposed system, provides essential information related to the trash disposed. This information can be utilized to take necessary steps to dispose / recycle these wastes using correct methodologies.
-<br></br>
-📝 The separation process of the waste will be faster and intelligent using the proposed waste material classification system without or reducing human involvement.
-<br>
-<br>
+📝Thus, there is a requirement from the students' end to view all the work to be done and the learning resources in a more organized manner and from the faculty’s end an organized mechanism to share all information and resources with their students. Both the faculty and students require an organized and efficient method to track their work.<br><br>
+📝The proposed solution is the website, "Academizer".
 <br>
 
 
