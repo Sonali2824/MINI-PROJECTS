@@ -43,8 +43,16 @@
 
 ## Getting Started
 
-✅ Detailed instructions regarding how to retrain the model and make predictions on the video is given in the pdf named: <a href="https://drive.google.com/file/d/1NkXdsCRu6NgmVau9nOVZkz-BKu4ltk7D/view?usp=sharing"> <b>AUTOWASTIDE.pdf<b></a>
+✅ Detailed instructions on how to use run the Academizer
 <br></br>
+📌 Download the XAMPP server.<br><br>
+📌 Clone the repository. Copy paste the folder VIRTUAL CLASSROOM PROJECT into the folder htdocs (C:\xampp\htdocs). <br><br>
+📌  On the XAMPP Control Panel click on start for both Apache and MySQL. Create a database virtualclassroom in MySQL. Under the database create tables faculty_login and student_login. <br><br>
+📌  On the XAMPP Control Panel click on start for both Apache and MySQL. Create a database virtualclassroom in MySQL. Under the database create tables faculty_login and student_login. <br><br>
+📌  Copy and paste the following link to access the landing page of Academizer : http://localhost/VIRTUAL%20CLASSROOM%20PROJECT/landing%20page/index.html <br><br>
+📌  Follow the video tutorials on how to use the website "Academizer". <br><br>
+
+
 
 
 ## VIDEO TUTORIAL ON HOW TO USE THE ACADEMIZER:
