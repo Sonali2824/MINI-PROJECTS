@@ -64,7 +64,7 @@
 
 
 ## VIDEO TUTORIAL ON HOW TO USE THE ACADEMIZER:
-<a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK </a>
+* **<a href="https://drive.google.com/file/d/1t1j0kn3CWUSTD1A_iWmT14-93GGKXwMj/view?usp=sharing"> 📷 VIDEO LINK </a>
 <br></br>
 
 
