@@ -37,7 +37,7 @@
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE3.png">
 <br></br>
 
-### FLOWCHART 
+### FLOW OF PROJECT 
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FLOWCHART.png">
 <br></br>
 
