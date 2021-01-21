@@ -29,7 +29,10 @@
 <br>
 
 
-### ARCHITECTURE 
+
+### FLOW OF PROJECT 
+<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FLOWCHART.png">
+<br></br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE1.png">
 <br></br>
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE2.png">
@@ -37,9 +40,7 @@
 <img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/ARCHITECTURE3.png">
 <br></br>
 
-### FLOW OF PROJECT 
-<img src="https://github.com/Sonali2824/MINI-PROJECTS/blob/master/VIRTUAL%20CLASSROOM%20PROJECT/FLOWCHART.png">
-<br></br>
+
 
 ### PROJECT IMPLEMENTATION 
 
