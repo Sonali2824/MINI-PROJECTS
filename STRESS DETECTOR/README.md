@@ -6,8 +6,6 @@ The architecture comprises of the following components:
 2. The stress detector is then started.
 3. Then the system checks conditions:
 a) If emotions sad or scared is detected and ,count >20,and
-STRESS DETECTION USING FACIAL CUES 2019 - 20
-Department of ISE, NHCE Page - 15 -
 b) If the value of drowsy==1
 4. If all conditions are satisfied stress is detected. If any of the condition is not satisfied
 stress is not detected.
