@@ -1,5 +1,5 @@
 # AUTO ATTENDANCE SYSTEM USING FACE RECOGNITION
-## Architecture
+## Flow of Project
 The following figurerepresents the architecture of the current implementation of the project.
 <br>
 ![ARCHITECTURE](https://github.com/Sonali2824/MINI-PROJECTS/blob/master/FACE%20RECOGNITION/ARCHITECTURE.png?raw=true)
