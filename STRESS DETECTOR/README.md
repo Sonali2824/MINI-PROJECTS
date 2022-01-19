@@ -1,4 +1,4 @@
-# Architecture
+# Flow of Project
 The following figure represents the architecture of the current implementation of the project.
 ![Architecture](https://github.com/Sonali2824/MINI-PROJECTS/blob/master/STRESS%20DETECTOR/ARCHITECTURE.png?raw=true)
 The architecture comprises of the following components:
